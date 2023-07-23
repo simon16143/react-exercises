@@ -1,0 +1,14 @@
+/* Define la animación de Flip con los keyframes */
+@keyframes flip {
+  from {
+    transform: perspective(400px) rotateY(0);
+  }
+  to {
+    transform: perspective(400px) rotateY(180deg);
+  }
+}
+
+/* Aplica una clase para la animación de Flip */
+.flip {
+  animation: flip 1s ease-out;
+}
